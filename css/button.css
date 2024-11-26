@@ -1,0 +1,29 @@
+.button{
+    width: 271.58px;
+    height: 52.25px;
+    position: fixed;
+    z-index: 1;
+    bottom: 2rem;
+    left: 10%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: #fff;
+    border-radius: 28px;
+    padding: 10px 12px;
+    background-color: #029a49;
+    font-size: 15px;
+    .line__button{
+        width: 1px;
+        height: 16px;
+        background-color: #ffffff38;
+        margin: 0 8px;
+    }
+    .button__svg{
+        width: 28px;
+        height: 28px;
+        fill: white;
+        margin-right: 7px;
+    }
+}
